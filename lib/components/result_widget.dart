@@ -33,21 +33,17 @@ class ResultWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.green[100],
-      child: SafeArea(
-        child: Container(
-          padding: EdgeInsets.all(10),
-          child: CircleAvatar(
-            backgroundColor: _getColor(),
-            child: IconButton(
-              padding: EdgeInsets.all(0),
-              icon: Icon(
-                _getIcon(),
-                color: Colors.black,
-                size: 40,
-              ),
-              onPressed: onRestart,
+      child: Container(
+        child: CircleAvatar(
+          backgroundColor: _getColor(),
+          child: IconButton(
+            padding: EdgeInsets.all(0),
+            icon: Icon(
+              _getIcon(),
+              color: Colors.black,
+              size: 40,
             ),
+            onPressed: onRestart,
           ),
         ),
       ),
