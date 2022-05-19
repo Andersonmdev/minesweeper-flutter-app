@@ -1,2 +1,3 @@
 # Minesweeper Game
-+ Flutter
+
+  + Minesweeper game developed with [***flutter***](https://flutter.dev/).
